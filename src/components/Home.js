@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const Home = (props) => {
   const navigate = useNavigate(); // Hook for navigation
-  const emojis = useMemo(() => ['😊', '😂', '😎', '😍', '😁', '😇', '🤩', '😅'], []);
+  const emojis = useMemo(() => ['🔠', '🔡','🐪🔤' ,'📝', '❌','🏷️🔠','🔄🔤','📋'], []);
 
   const transformations = useMemo(
     () => [
@@ -113,7 +113,7 @@ const Home = (props) => {
 
       <h1
         style={{
-          fontSize: '4rem',
+          fontSize: '3rem',
           fontFamily: fonts[currentFont],
           fontWeight: 'bold',
           margin: '0',
